@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
-from transformers import PegasusForConditionalGeneration, PegasusTokenizer
+from transformers import BartForConditionalGeneration, BartTokenizer
 import torch
-
 app = Flask(__name__)
 
 
